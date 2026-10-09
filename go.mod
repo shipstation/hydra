@@ -1,9 +1,6 @@
 module github.com/ory/hydra/v2
 
 go 1.21
-
-toolchain go1.21.0
-
 replace github.com/ory/hydra-client-go/v2 => ./internal/httpclient
 
 require (
@@ -60,11 +57,11 @@ require (
 	go.opentelemetry.io/otel/sdk v1.21.0
 	go.opentelemetry.io/otel/trace v1.21.0
 	go.uber.org/automaxprocs v1.5.3
-	golang.org/x/crypto v0.21.0
+	golang.org/x/crypto v0.57.0
 	golang.org/x/exp v0.0.0-20231110203233-9a3e6036ecaa
 	golang.org/x/oauth2 v0.14.0
-	golang.org/x/sync v0.5.0
-	golang.org/x/tools v0.15.0
+	golang.org/x/sync v0.23.0
+	golang.org/x/tools v0.49.0
 )
 
 require github.com/hashicorp/go-cleanhttp v0.5.2 // indirect
@@ -227,10 +224,10 @@ require (
 	go.opentelemetry.io/otel/exporters/zipkin v1.21.0 // indirect
 	go.opentelemetry.io/otel/metric v1.21.0 // indirect
 	go.opentelemetry.io/proto/otlp v1.0.0 // indirect
-	golang.org/x/mod v0.14.0 // indirect
-	golang.org/x/net v0.23.0 // indirect
-	golang.org/x/sys v0.18.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/mod v0.41.0 // indirect
+	golang.org/x/net v0.58.0 // indirect
+	golang.org/x/sys v0.48.0 // indirect
+	golang.org/x/text v0.42.0 // indirect
 	golang.org/x/xerrors v0.0.0-20231012003039-104605ab7028 // indirect
 	google.golang.org/appengine v1.6.8 // indirect
 	google.golang.org/genproto v0.0.0-20231106174013-bbf56f31fb17 // indirect
